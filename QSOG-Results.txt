@@ -1,0 +1,10 @@
+Nour SOUID Workspace
+**********************************************************
+**********************************************************
+        Opacify using theory of control and supervision  
+**********************************************************
+**********************************************************
+Input file failed to open
+erreur lors du chargement
+error #2 : Failed to open file
+file C:/Users/nours/OneDrive/Desktop/amina/examples/alpha-beta/examples/obs.txt doesn't exist

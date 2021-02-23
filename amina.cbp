@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="amina" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Opacity_Supervision/" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/amina" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="C:/Users/nours/OneDrive/Desktop/bdd/include" />
+					<Add directory="C:/Users/nours/OneDrive/Desktop/bdd/src" />
+					<Add directory="C:/Users/nours/OneDrive/Desktop/tin/include" />
+					<Add directory="C:/Users/nours/OneDrive/Desktop/tin" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add library="C:/Users/nours/OneDrive/Desktop/bdd/bin/Debug/libbdd.a" />
+					<Add library="C:/Users/nours/OneDrive/Desktop/RdP/bin/Debug/libRdP.a" />
+					<Add library="C:/Users/nours/OneDrive/Desktop/tin/bin/Debug/libtin.a" />
+					<Add directory="C:/Users/nours/OneDrive/Desktop/bdd/bin/Debug" />
+				</Linker>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/amina" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Linker>
+			<Add library="C:/Users/nours/OneDrive/Desktop/amina/Dependencies/buddy22/lib/libbdd.a" />
+			<Add library="C:/Users/nours/OneDrive/Desktop/amina/Dependencies/parser/libRdP.a" />
+		</Linker>
+		<Unit filename="Class_of_state.cpp" />
+		<Unit filename="Class_of_state.h" />
+		<Unit filename="MDGraph.cpp" />
+		<Unit filename="MDGraph.h" />
+		<Unit filename="Modular_Class_of_state.h" />
+		<Unit filename="Modular_Edge.h" />
+		<Unit filename="Modular_Obs_Graph.cpp" />
+		<Unit filename="Modular_Obs_Graph.h" />
+		<Unit filename="RdPBDD.cpp" />
+		<Unit filename="RdPBDD.h" />
+		<Unit filename="include/Model.h" />
+		<Unit filename="include/OS_Attacker.h" />
+		<Unit filename="include/OS_Opacity_Manager.h" />
+		<Unit filename="include/OS_Opacity_Manager_Interface.h" />
+		<Unit filename="include/OS_SOG_Generator.h" />
+		<Unit filename="include/OS_SOG_Manager.h" />
+		<Unit filename="include/OS_SOG_Manager_Interface.h" />
+		<Unit filename="include/OS_Supervision_Manager.h" />
+		<Unit filename="include/OS_Supervisor.h" />
+		<Unit filename="include/Opacity_Verifier.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/Model.cpp" />
+		<Unit filename="src/OS_Attacker.cpp" />
+		<Unit filename="src/OS_Opacity_Manager.cpp" />
+		<Unit filename="src/OS_Opacity_Manager_Interface.cpp" />
+		<Unit filename="src/OS_SOG_Generator.cpp" />
+		<Unit filename="src/OS_SOG_Manager.cpp" />
+		<Unit filename="src/OS_SOG_Manager_Interface.cpp" />
+		<Unit filename="src/OS_Supervision_Manager.cpp" />
+		<Unit filename="src/OS_Supervisor.cpp" />
+		<Unit filename="src/Opacity_Verifier.cpp" />
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

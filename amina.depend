@@ -1,0 +1,223 @@
+# depslib dependency file v1.0
+1603051251 source:c:\users\nours\onedrive\desktop\amina\main.cpp
+	<time.h>
+	<iostream>
+	<string>
+	<stdio.h>
+	<fstream>
+	"bdd.h"
+	"fdd.h"
+	"Net.h"
+	"RdPBDD.h"
+	"math.h"
+	"./include/OS_Attacker.h"
+	"OS_Supervisor.h"
+	"OS_Supervision_Manager.h"
+	"OS_Opacity_Manager.h"
+
+1589278165 c:\users\nours\onedrive\desktop\bdd\include\bdd.h
+	<stdio.h>
+	<iostream>
+
+1589278165 c:\users\nours\onedrive\desktop\bdd\include\fdd.h
+	"bdd.h"
+
+1592737696 c:\users\nours\onedrive\desktop\amina\rdpbdd.h
+	<vector>
+	<stack>
+	<utility>
+	<stdio.h>
+	<iostream>
+	"Net.h"
+	"bdd.h"
+	"MDGraph.h"
+	"Modular_Obs_Graph.h"
+	"Modular_Class_of_state.h"
+	"include/Model.h"
+	"OS_SOG_Generator.h"
+	"Opacity_Verifier.h"
+
+1599660760 c:\users\nours\onedrive\desktop\amina\mdgraph.h
+	<iostream>
+	<vector>
+	"Class_of_state.h"
+	<list>
+
+1592671883 c:\users\nours\onedrive\desktop\amina\class_of_state.h
+	"bdd.h"
+	<map>
+	<set>
+	<vector>
+	<utility>
+	<ext/hash_map>
+	<iostream>
+
+1589278644 c:\users\nours\onedrive\desktop\amina\modular_obs_graph.h
+	<iostream>
+	<time.h>
+	<vector>
+	"Modular_Class_of_state.h"
+	<utility>
+
+1589480534 c:\users\nours\onedrive\desktop\amina\modular_class_of_state.h
+	"Net.h"
+	<set>
+	"bdd.h"
+
+1599931909 source:c:\users\nours\onedrive\desktop\amina\mdgraph.cpp
+	"MDGraph.h"
+	"Net.h"
+	<iostream>
+	<algorithm>
+	<vector>
+
+1592744099 source:c:\users\nours\onedrive\desktop\amina\modular_obs_graph.cpp
+	"Modular_Obs_Graph.h"
+	<utility>
+	<iostream>
+
+1599936236 source:c:\users\nours\onedrive\desktop\amina\rdpbdd.cpp
+	<string.h>
+	<iostream>
+	<set>
+	<vector>
+	<map>
+	<stack>
+	<utility>
+	<ext/hash_map>
+	<math.h>
+	<sstream>
+	<set>
+	<fstream>
+	<algorithm>
+	"bvec.h"
+	"RdPBDD.h"
+
+1589278165 c:\users\nours\onedrive\desktop\bdd\include\bvec.h
+	"fdd.h"
+
+1603051461 source:c:\users\nours\onedrive\desktop\amina\src\os_supervisor.cpp
+	<utility>
+	<functional>
+	"OS_Supervisor.h"
+
+1594014616 c:\users\nours\onedrive\desktop\amina\include\os_supervisor.h
+	<iostream>
+	<vector>
+	"Net.h"
+	"../Class_of_state.h"
+	"../RdPBDD.h"
+
+1591599037 source:c:\users\nours\onedrive\desktop\amina\src\os_supervisory_manager.cpp
+	"OS_Supervisory_Manager.h"
+
+1591599098 c:\users\nours\onedrive\desktop\amina\include\os_supervisory_manager.h
+	<vector>
+	"OS_Supervisor.h"
+
+1590659151 source:c:\users\nours\onedrive\desktop\amina\src\os_opacity manager.cpp
+	"OS_Opacity_Manager.h"
+
+1594031876 c:\users\nours\onedrive\desktop\amina\include\os_opacity_manager.h
+	<iostream>
+	<vector>
+	<stack>
+	<set>
+	<algorithm>
+	"../RdPBDD.h"
+	"../MDGraph.h"
+	"Net.h"
+	"../Class_of_state.h"
+	"OS_Opacity_Manager_Interface.h"
+	"Model.h"
+	"OS_Attacker.h"
+
+1590660019 source:c:\users\nours\onedrive\desktop\amina\src\os_opacity manager interface.cpp
+	"OS_Opacity_Manager_Interface.h"
+
+1592552453 c:\users\nours\onedrive\desktop\amina\include\os_opacity_manager_interface.h
+	<iostream>
+	<vector>
+	<stack>
+	"../RdPBDD.h"
+	"../MDGraph.h"
+	"Net.h"
+	"../Class_of_state.h"
+	"OS_Supervision_Manager.h"
+
+1591959563 source:c:\users\nours\onedrive\desktop\amina\src\os_opacity_manager_interface.cpp
+	"OS_Opacity_Manager_Interface.h"
+
+1603052008 source:c:\users\nours\onedrive\desktop\amina\src\os_opacity_manager.cpp
+	<algorithm>
+
+1591973090 source:c:\users\nours\onedrive\desktop\amina\src\model.cpp
+	"Model.h"
+
+1594031837 c:\users\nours\onedrive\desktop\amina\include\model.h
+	<iostream>
+	"bdd.h"
+	"Net.h"
+	"../MDGraph.h"
+	"../Modular_Obs_Graph.h"
+	"../Modular_Class_of_state.h"
+
+1591485893 source:c:\users\nours\onedrive\desktop\amina\src\attacker.cpp
+	"Attacker.h"
+
+1591491226 c:\users\nours\onedrive\desktop\amina\include\attacker.h
+	<iostream>
+	<cstring>
+	<set>
+	"../RdPBDD.h"
+
+1591581369 source:c:\users\nours\onedrive\desktop\amina\src\os_sog_manager.cpp
+	"OS_SOG_Manager.h"
+
+1591581369 c:\users\nours\onedrive\desktop\amina\include\os_sog_manager.h
+
+1591581445 source:c:\users\nours\onedrive\desktop\amina\src\os_sog_manager_interface.cpp
+	"OS_SOG_Manager_Interface.h"
+
+1591581988 c:\users\nours\onedrive\desktop\amina\include\os_sog_manager_interface.h
+	"../RdPBDD.h"
+	"../MDGraph.h"
+
+1592313405 source:c:\users\nours\onedrive\desktop\amina\src\os_attacker.cpp
+	"OS_Attacker.h"
+	<iostream>
+
+1592312025 c:\users\nours\onedrive\desktop\amina\include\os_attacker.h
+	<iostream>
+	<cstring>
+	<set>
+	"../RdPBDD.h"
+
+1599174240 source:c:\users\nours\onedrive\desktop\amina\src\os_supervision_manager.cpp
+	"OS_Supervision_Manager.h"
+	<vector>
+
+1594019914 c:\users\nours\onedrive\desktop\amina\include\os_supervision_manager.h
+	<vector>
+	"OS_Supervisor.h"
+
+1591960628 c:\users\nours\onedrive\desktop\amina\include\sog_generator.h
+	"../MDGraph.h"
+
+1591960031 c:\users\nours\onedrive\desktop\amina\include\opacity_verifier.h
+
+1591960032 source:c:\users\nours\onedrive\desktop\amina\src\opacity_verifier.cpp
+	"Opacity_Verifier.h"
+
+1591960002 source:c:\users\nours\onedrive\desktop\amina\src\sog_generator.cpp
+	"SOG_Generator.h"
+
+1592197292 source:c:\users\nours\onedrive\desktop\amina\src\os_sog_generator.cpp
+	"OS_SOG_Generator.h"
+
+1592197902 c:\users\nours\onedrive\desktop\amina\include\os_sog_generator.h
+	"../MDGraph.h"
+
+1592488666 source:c:\users\nours\onedrive\desktop\amina\class_of_state.cpp
+	"Class_of_state.h"
+
